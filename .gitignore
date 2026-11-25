@@ -1,0 +1,11 @@
+# Local diagnostic outputs & sensitive backups
+*.log
+dns-backup*.txt
+router_dump*
+rf_scan*
+results/local-*.json
+results/local-*.csv
+.env
+.env.*
+.DS_Store
+Thumbs.db
