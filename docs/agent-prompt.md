@@ -4,6 +4,14 @@ Paste this prompt into any terminal-capable AI coding agent (Claude Code, Antigr
 
 ---
 
+> **Note on Router Login & AI Guardrails:**
+> - **Where credentials are needed:** Inspecting internal router radio/RF neighbor telemetry or changing Wi-Fi settings requires logging into your gateway IP (e.g., `192.168.1.1`, `192.168.0.1`, or `10.x.x.x`) with your router admin username and password.
+> - **Why some models refuse:** Many hosted models have strict security guardrails that block accessing local router IPs or using login credentials, even when you own the hardware and provide them explicitly.
+> - **Workarounds:**
+>   1. **Do the router part manually (safest):** Open the router admin page yourself in a browser, take screenshots of the **Wireless / Wi-Fi Settings** and **Channel / Neighbor Scan** pages, and paste those screenshots to the agent—no passwords needed.
+>   2. **Use an open-source / local model (or less-restricted model):** If you want an agent to log into your router directly for automated telemetry reads, consider running an open-source model or one without strict local-network guardrails.
+>   3. **Rotate credentials:** If you ever share your router password in a cloud model session, change the password afterward.
+
 ```text
 Diagnose my Wi-Fi and home network, identify the real bottlenecks behind slow speeds or instability, and guide me through fixing them.
 

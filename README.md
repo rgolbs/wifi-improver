@@ -130,6 +130,10 @@ This entire diagnostic session — running the sequential probes, reading router
 
 Want to run the exact same workflow on your own home network? Copy the reusable prompt in **[`docs/agent-prompt.md`](docs/agent-prompt.md)** into your AI coding agent.
 
+> **Note on Router Logins & AI Guardrails:** Reading router radio stats or applying Wi-Fi changes requires logging into your router's local admin IP (e.g., `192.168.x.x` or `10.x.x.x`) with its username and password. Some hosted/commercial AI models have strict safety guardrails and may refuse to access local gateway IPs or handle router credentials—even on your own network. If your model refuses:
+> - **Do the router step yourself (recommended):** Log into the router in your browser and paste a screenshot of its Wireless Settings page into the chat instead of sharing credentials.
+> - **Or use an open-source / local model** (or one without restrictive local-network guardrails) if you want the agent to inspect the router directly. (If you ever paste a router password into a cloud chat, change it afterward.)
+
 ---
 
 ## Repository Structure

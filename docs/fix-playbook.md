@@ -6,7 +6,9 @@ Apply changes in order from highest impact to lowest, then re-run `.\scripts\ben
 
 ## 1. Router Wireless Settings (Highest Wi-Fi Impact)
 
-Log into your router's admin portal (commonly `http://192.168.1.1`, `http://192.168.0.1`, or your default gateway from `ipconfig`).
+Log into your router's admin portal (commonly `http://192.168.1.1`, `http://192.168.0.1`, or your default gateway from `ipconfig`) using the router's admin username and password (usually printed on the router label).
+
+> **Using an AI agent?** Some models have guardrails that block logging into local gateway IPs or handling router passwords. If your model refuses, simply open the admin page yourself and paste screenshots of your Wireless Settings—or switch to an open-source/local model if you want the agent to inspect the router directly.
 
 1. **Disable Band Steering / Smart Connect (Split SSIDs)**
    - Give 5 GHz a distinct network name (e.g., `<YourWiFi>-5G`) while keeping 2.4 GHz on `<YourWiFi>` so smart-home / IoT devices don't need reconfiguration.
