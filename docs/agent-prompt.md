@@ -40,7 +40,7 @@ Then give me:
   - Optimal 5/6 GHz width (80/160 MHz where supported), WMM/Wi-Fi 6 settings, and disabling Band Steering / Smart Connect if it degrades stability.
   - Exact cleanest 5 GHz (preferring non-DFS if clean) and 2.4 GHz (1/6/11 only, 20 MHz) channels based on my local RF scan.
   - Unused guest SSIDs, optical/cable modem signal health, and SQM / upload-cap options for bufferbloat.
-- Ask for my router model (or Wireless Settings screenshot) if needed for exact click-by-click instructions.
+- Ask for my router model (and/or Wireless Settings screenshot) if needed for exact click-by-click instructions.
 
 After I apply the changes, re-run the exact same sequential benchmark and output a Before vs. After comparison table.
 ```
