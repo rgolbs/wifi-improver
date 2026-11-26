@@ -170,3 +170,5 @@ All personal identifiers (SSIDs, passwords, MAC addresses, hostnames, private/pu
 ## License
 
 [MIT](LICENSE)
+
+*Inspired by [Bruno Volpato's Wi-Fi diagnostic prompt](https://x.com/brunovolpato/status/2124706066516885709).*
